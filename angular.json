@@ -24,11 +24,9 @@
               "src/assets"
             ],
             "styles": [
-              
               "src/styles.css"
             ],
             "scripts": []
-            
           },
           "configurations": {
             "production": {
@@ -92,6 +90,7 @@
             ],
             "styles": [
               "src/styles.css"
+              
             ],
             "scripts": []
           }
@@ -122,6 +121,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "CRUD-App"
+    }
+  },
+  "defaultProject": "CRUD-App",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "css"
+    }
+  }
 }
